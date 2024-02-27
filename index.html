@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html>
     <body>
+        <audio>
+            <source src="breaks/Michael Viner's Incredible Bongo Band - In-A-Gadda-Da-Vida.wav" type="audio/wav">
+        </audio>
         <h1>THIES RULES</h1>
+        
+        <form action="/action_page.php">
+            <input type="file" id="myFile" name="filename">
+            <input type="submit">
+        </form>
+        
+        <button onclick="playAudio()" type="button">Play Audio</button>
+        <script>
+            var x = document.getElementById("myAudio"); 
+            
+            function playAudio() { 
+              x.play(); 
+            } 
+            
+            function pauseAudio() { 
+              x.pause(); 
+            } 
+        </script>
     </body>
 </html>
