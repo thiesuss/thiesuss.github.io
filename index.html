@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        body{background-color: beige;}
-        h1 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-style: italic;}
-        
-    </style>
+    <head>
+        <link rel="stylesheet" href="stylish.css">
+    </head>
     <body>
         <audio id="myAudio">
             <source src="breaks/Michael Viner's Incredible Bongo Band - In-A-Gadda-Da-Vida.wav" type="audio/wav">
@@ -16,7 +14,7 @@
             <input type="submit">
         </form>
         
-        <button onclick="playAudio()" type="button">Play Audio</button>
+        <button class="button" onclick="playAudio()" type="button">Break that shit down</button>
         <script>
             var x = document.getElementById("myAudio"); 
             

@@ -1,0 +1,18 @@
+body{background-color: moccasin;}
+
+h1 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-style: bold; text-align: center; text-shadow: 0ch;}
+
+p {text-align: center;}
+
+.button {
+    background-color: salmon;
+    border: 1px;
+    border-color: darksalmon;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+}
