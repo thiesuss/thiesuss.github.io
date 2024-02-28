@@ -4,6 +4,7 @@
         <title>THIES</title>
         <link rel="icon" href="images/ComputerDesk.PNG" type="image/x-icon">
         <link rel="stylesheet" href="stylish.css">
+        <script src="breakscript.js"></script>
     </head>
     <body>
         <audio id="myAudio">
@@ -20,16 +21,6 @@
         <div class="text-center">
             <button class="button" onclick="playAudio()" type="button">BREAK THAT SHIT DOWN</button>
         </div>
-        <script>
-            var x = document.getElementById("myAudio"); 
-            
-            function playAudio() { 
-              x.play(); 
-            } 
-            
-            function pauseAudio() { 
-              x.pause(); 
-            } 
-        </script>
+        <p id="breakcnt"></p>
     </body>
 </html>
